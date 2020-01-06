@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("IMG/Fondo04.jpg");
+}
+
+a {
+  text-decoration: none;
+  align-items: center;
+}
+
+
+header, h1, .cuerpo, footer, form {
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+header nav {
+  background: #27af3d;
+  overflow: hidden;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  float:left;
+}
+header nav ul li a{
+  padding: 10px 20px;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav ul li:hover {
+  background: #0c234a;
+}
+
+
+
+.Cen_gen, .unid_gen, option {
+	font-size:20px;
+	width:100%
+}
+
+div {
+	margin:30px;
+}
+
+h1 {
+	text-align:center;
+}
+
+
+
+
+
+
+
+p{
+  text-align: justify;
+}
+
+h1{
+  text-align: left;
+  width: 75%
+  height: auto;
+  }
+
+.tablareport {
+  border-collapse: collapse;
+  text-align: left;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+th{
+  border: 2px solid #000;
+}
+
+.tablareport, td{
+  border: 2px solid #000;
+  padding: 10px;
+  text-align: left;
+}
+
+.tablereport, tr:hover {
+  background: #ccc;
+}
+
+.tablereport, td:hover {
+  background: #148c2b;
+  color: #fff;
+}
+
+input[type="submit"] {
+  border: none;
+  background: #3a7999;
+  color: #f2f2f2;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  position: static;
+  box-sizing: border-box;
+  transition: all 500ms ease;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+input[type="submit"]:hover {
+  background: #b9d145;
+  cursor: pointer;
+}
+
+input:focus textarea {
+  border: 1px solid rgb(7, 86, 212);
+}
+input[type="submit"] {
+  margin-bottom:0;
+  background:;
+  color: #fff;
+  border: none;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+input[type="submit"]:hover {
+  background: #b9d145;
+  cursor: pointer;
+}
+
+
+footer{
+  background: #000;
+  color: #fff;
+  clear: both;
+  text-align: center;
+}
